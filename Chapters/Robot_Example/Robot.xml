@@ -320,6 +320,10 @@
     <p_Name>Robot</p_Name>
     <elemProxy type="systemcomposer.services.proxy.ProxyTarget" uuid="e892717d-885d-460c-8bd9-bdd5138a43eb"/>
   </systemcomposer.profile.Profile>
+  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="2a6d73d2-4e29-4c85-8c7c-060958af2d7d">
+    <URI>Robot</URI>
+    <modelType>PROFILE_MODEL</modelType>
+  </systemcomposer.services.proxy.ModelIdentifier>
   <systemcomposer.services.proxy.ModelResolver type="systemcomposer.services.proxy.ModelResolver" uuid="a2db90a8-931e-4756-bf3d-8793a9ff97da">
     <Proxies type="systemcomposer.services.proxy.UnidirectionalProxy" uuid="fe6f205b-e32d-4705-b095-54afd3bd33ac">
       <Source type="systemcomposer.services.proxy.ProxySource" uuid="8d981fc9-1292-48f7-b03d-350479850e11"/>
@@ -391,10 +395,6 @@
       <TargetId>f672a83c-52a3-41ef-9d6f-9b4b1266ff24</TargetId>
     </Proxies>
   </systemcomposer.services.proxy.ModelResolver>
-  <systemcomposer.services.proxy.ModelIdentifier type="systemcomposer.services.proxy.ModelIdentifier" uuid="2a6d73d2-4e29-4c85-8c7c-060958af2d7d">
-    <URI>Robot</URI>
-    <modelType>PROFILE_MODEL</modelType>
-  </systemcomposer.services.proxy.ModelIdentifier>
-  <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="70662407-ce09-4449-8d07-7d55ea733850"/>
   <systemcomposer.property.UnitQueryClientWrapper type="systemcomposer.property.UnitQueryClientWrapper" uuid="60a4f69f-e0f7-4410-8320-f4cb1e291165"/>
+  <systemcomposer.services.proxy.WorkspaceWrapper type="systemcomposer.services.proxy.WorkspaceWrapper" uuid="70662407-ce09-4449-8d07-7d55ea733850"/>
 </MF0>
